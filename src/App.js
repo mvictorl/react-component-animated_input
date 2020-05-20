@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import InputAnime from './components/InputAnime/InputAnime'
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <hr/>
+        <div className="App-body">
+          <InputAnime />
+        </div>
       </header>
     </div>
   );
